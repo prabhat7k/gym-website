@@ -1,0 +1,72 @@
+
+.sec-img{
+    height: 200px;
+  
+}
+body{
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+}
+.container{
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.box{
+    display: flex;
+    padding: 4px 10px;
+}
+.sec-text{
+    padding: 7px 29px;
+    /* margin: 0 7px; */
+}
+.right{
+    flex-direction: row-reverse;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+    width: 80%;
+    /* border: 3px solid green; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: -6px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 11px auto;
+}
+.inside-form{
+    padding: 10px 27px;
+    margin: 6px 3px;
+    border-radius: 10px;
+    border: 0px;
+}
+.contact-btn{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    width: 60px;
+    height: 21px;
+    /* justify-content: center; */
+    margin: auto;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+::placeholder {
+    color: black;
+  }
